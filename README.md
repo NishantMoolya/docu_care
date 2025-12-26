@@ -8,10 +8,6 @@ AI Agent to analyze blood reports and provide detailed health insights.
   <a href="#-installation">Installation</a>
 </p>
 
-<!-- <p align="center">
-  <a href="https://github.com/NishantMoolya/docu_care"><img src="https://raw.githubusercontent.com/NishantMoolya/docu_care/main/public/demo.gif" alt="Usage Demo"></a>
-</p> -->
-
 ## 🌟 Features
 
 - Intelligent agent-based architecture with multi-model cascade system
@@ -72,9 +68,9 @@ GROQ_API_KEY = "your-groq-api-key"
 
 The application requires the following tables in your Supabase database:
 
-![database schema](https://raw.githubusercontent.com/harshhh28/hia/main/public/db/schema.png)
+![database schema](https://raw.githubusercontent.com/NishantMoolya/docu_care/master/public/db/schema.png)
 
-You can use the SQL script provided at `public/db/script.sql` <a href="https://www.github.com/harshhh28/hia/blob/main/public/db/script.sql">[link]</a> to set up the required database schema.
+You can use the SQL script provided at `public/db/script.sql` <a href="https://www.github.com/NishantMoolya/docu_care/blob/master/public/db/script.sql">[link]</a> to set up the required database schema.
 
 (PS: You can turn off the email confimation on signup in Supabase settings -> signup -> email)
 
